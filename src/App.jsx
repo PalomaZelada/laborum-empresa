@@ -7,6 +7,7 @@ import Home from './assets/views/Home';
 // import AddjobForm from './assets/components/CreateJob/CreateJob';
 // import CreateProfile from './assets/views/CreateProfile';
 import './App.css';
+import ManageAd from './assets/components/gestionAvisos/Avisos';
 
 function App() {
   const user = useUser();
