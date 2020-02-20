@@ -30,6 +30,7 @@ function JobsView() {
   return (
     <div>
 
+      <section className="job-box col-11">
         {jobs.map((Jobs) =>
           <div className="job-offer col-4">
             <div>
@@ -67,6 +68,7 @@ function JobsView() {
 
           </div>
         )}
+      </section>
     </div>
   )
 }

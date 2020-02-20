@@ -21,9 +21,9 @@ function App() {
         {/* <Switch>
           <Route exact path="/crear-aviso" component={AddjobForm} />
         </Switch> */}
-        <Switch>
+        {/* <Switch>
           <Route exact path="/gestion-avisos" component={ManageAd} />
-        </Switch>
+        </Switch> */}
       </BrowserRouter>
       </ProviderContext>
     </div>
