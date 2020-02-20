@@ -36,8 +36,8 @@ function JobsView() {
             <div className="logo-status-location">
               <img className="logoSize"
                 src={logo}
-                alt="Logo empresa" />            
-                <button className="job-status">Aprobado</button>
+                alt="Logo empresa" />
+              <button className="job-status">Aprobado</button>
             </div>
             <p className="job-title">{Jobs.jobName}</p>
             <p className="job-description">{Jobs.jobDescription}</p>
@@ -63,7 +63,7 @@ function JobsView() {
                 src={trash}
                 alt="Eliminar" /></button>
               <button className="seeMore">
-              <img src={seemore} alt="Ver más" /></button>
+                <img src={seemore} alt="Ver más" /></button>
             </div>
           </div>
         )}
