@@ -5,7 +5,7 @@ import ManageAd from '../gestionAvisos/Avisos'
 
 const Content = () => {
   return (
-    <div className="col-8 container">
+    <div className="col-9 container">
       <div>
         < ManageAd />
         {/* <CreateJobAnnouncement /> */}

@@ -12,7 +12,7 @@ const Home = () => (
     <Header />
     <Sidebar />
     <Content/>
-    <Footer />
+    {/* <Footer /> */}
   </div>
 );
 
